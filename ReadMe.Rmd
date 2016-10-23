@@ -1,0 +1,22 @@
+---
+title: "ReadMe"
+author: "Don McLellan"
+date: "October 23, 2016"
+output: html_document
+---
+
+Week 4 Getting and Cleaning Data Final Project
+
+Please see the CodeBook which explains how to download the data required. CodeBook also explains how the program works.  Also included is the Program to run which will produce the final output. The program is called Run_analysis.R.
+
+
+The final output is designed to accomplish the following:
+
+1.	Merges the training and the test sets to create one data set.
+2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+3.	Uses descriptive activity names to name the activities in the data set
+4.	Appropriately labels the data set with descriptive variable names. 
+5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+

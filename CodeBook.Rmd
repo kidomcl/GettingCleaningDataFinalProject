@@ -1,0 +1,50 @@
+---
+title: "CodeBook"
+author: "Don McLellan"
+date: "October 23, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+Create a tidy data set as defined by Coursera Course.
+1. Each variable you measure should be in one column
+2. Each different observaton of that variable should be in a different row.
+3. There should be one table for each "kind" of variable.
+4. If you have multiple tables, they should include a column in the table that allows them to be linked.
+
+Also simplified column names from original to remove parentheses and to replace "t" with "Time" and "f" with "Frequency"
+
+Downloaded the data from the following link:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Ran the code called "Run_analysis.R"
+
+Read in the following files:
+1. x_test
+2. y_test
+3. subject_test
+4. x_train
+5. y_train
+6. subject_train
+7. features
+8. activity_labels
+
+
+Merge the test files (first 3 above)
+Merge the train files (4-6 above)
+
+clean up the column names
+1. Where column names begin with "t" replace with "Time"
+2. where column names begin with "f" replace with "Frequency"
+
+Use Grep function to find all Mean and Std columns
+
+Use Aggregate function to calculate mean 
+
+Order by subjectID and activityID
+
+
